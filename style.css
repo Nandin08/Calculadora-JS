@@ -8,8 +8,8 @@
 
 header { display: flex;
 justify-content: center; 
-align-items: center;
-height: 45vh;
+
+height: 60vh;
 
 }
 header h1 {
@@ -23,4 +23,10 @@ header h1 {
 
 body {
     background-color: #202020;
+    display: flex;
+justify-content: center; /* horizontal /
+align-items: center;     / vertical */
+height: 100vh;
+flex-direction: column;
+
 }
