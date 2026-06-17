@@ -5,11 +5,11 @@ Projeto de uma calculadora simples que estou desenvolvendo pra praticar HTML, CS
  🚧 Andamento
 
 - Header: finalizado (talvez eu ainda mexa depois)
-- Main: coloquei os botões, falta estilizar no css.
+- Main: os botões estão estilizados, porém ainda falta arrumá-los no meio.
 
 📌 Próximos passos
 
-- Criar os botões e layout no HTML (quase pronto)
+- Criar os botões e layout no HTML ( quase pronto)
 - Organizar tudo no CSS ( em andamento)
 - Fazer a lógica funcionar com JavaScript
 
