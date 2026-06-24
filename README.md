@@ -5,7 +5,7 @@ Projeto de uma calculadora simples que estou desenvolvendo pra praticar HTML, CS
  🚧 Andamento
 
 - Header: finalizado (talvez eu ainda mexa depois)
-- Main: os botões estão estilizados, porém ainda falta arrumá-los no meio.
+- Main: os botões agora estão no meio. falta termina de organizar eles e arrumar o display.
 
 📌 Próximos passos
 
