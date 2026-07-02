@@ -61,6 +61,24 @@ button:hover {
 #clean {
     color: rgb(255, 241, 241);
     background-color: rgb(110, 14, 221);
-    font-size: 1rem
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
     
+}
+
+#clean:hover {
+    background-color: rgb(65, 4, 134) ;
+}
+
+#display {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+  
+}
+
+#resultado {
+      flex-grow: 1;
 }

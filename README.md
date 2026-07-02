@@ -5,13 +5,13 @@ Projeto de uma calculadora simples que estou desenvolvendo pra praticar HTML, CS
  🚧 Andamento
 
 - Header: finalizado (talvez eu ainda mexa depois)
-- Main: os botões agora estão no meio. falta termina de organizar eles e arrumar o display.
+- Main: os botões agora estão no meio, falta arrumar o display.
 
 📌 Próximos passos
 
-- Criar os botões e layout no HTML ( quase pronto)
+- Criar os botões e layout no HTML ( pronto)
 - Organizar tudo no CSS ( em andamento)
-- Fazer a lógica funcionar com JavaScript
+- Fazer a lógica funcionar com JavaScript (não iniciado)
 
  💻 Tecnologias
 
