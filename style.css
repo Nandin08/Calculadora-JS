@@ -7,7 +7,8 @@
 }
 
 header { display: flex;
-justify-content: center; 
+justify-content: flex-start;
+
 
 height: 15vh;
 
@@ -18,6 +19,8 @@ header h1 {
     font-weight: 600;
     color: rgb(243, 245, 248);
     padding: 10px;
+    align-items: center;
+    padding-right: 50px;
     
 }
 
@@ -31,8 +34,15 @@ align-items: center;
 
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 #fusao {
     display: flex;
+    gap: 10px;
     
 }
 
