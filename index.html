@@ -23,7 +23,7 @@
         <p id="resultado">0</p>
     </div>
     <div id="limpar">
-        <button id="clean">C</button>
+        <button onclick="limpar()" id="clean">C</button>
     </div>
 </div>
             
@@ -31,22 +31,22 @@
        
 
             <div id="botoes">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>0</button>
-                <button>+</button>
-                <button>-</button>
-                <button>/</button>
-                <button>X</button>
-                <button>.</button>
-                <button>=</button>
+                <button onclick="digitar(1)">1</button>
+                <button onclick="digitar(2)">2</button>
+                <button onclick="digitar(3)">3</button>
+                <button onclick="digitar(4)">4</button>
+                <button onclick="digitar(5)">5</button>
+                <button onclick="digitar(6)">6</button>
+                <button onclick="digitar(7)">7</button>
+                <button onclick="digitar(8)">8</button>
+                <button onclick="digitar(9)">9</button>
+                <button onclick="digitar(0)">0</button>
+                <button onclick="digitar('+')">+</button>
+                <button onclick="digitar('-')">-</button>
+                <button onclick="digitar('/')">/</button>
+                <button onclick="digitar('*')">*</button>
+                <button onclick="digitar('.')">.</button>
+                <button onclick="digitar('=')">=</button>
 
             </div>
         </div>
@@ -54,6 +54,7 @@
 
     </main>
 
+    <script src="scripts.js"></script>
 </body>
 
 </html>
