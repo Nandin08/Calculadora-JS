@@ -1,9 +1,14 @@
-function  digitar (value) {
+function  digitar (value) { 
 
     let resultado = document.getElementById("resultado");
+    
 
-
+    if (resultado.textContent == "0") {
+        resultado.textContent = value
+    } else  {
+        
 resultado.textContent += value
+    }
 
 
 }
