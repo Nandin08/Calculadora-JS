@@ -14,7 +14,7 @@ Projeto de uma calculadora simples que estou desenvolvendo pra praticar HTML, CS
 - Criar os botões e layout no HTML ( pronto)
 - Organizar tudo no CSS ( pronto)
 - Arrumar os espaçamentos entre os botões. (pronto)
-- Fazer a lógica funcionar com JavaScript (Em andamento. Os botões sao acionados e o Clean também. mas ainda falta arrumar a lógica.)
+- Fazer a lógica funcionar com JavaScript (Em andamento. Os botões são acionados e o Clean também. mas ainda falta arrumar a lógica.)
 
  💻 Tecnologias
 
