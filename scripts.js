@@ -1,22 +1,28 @@
 // Variaveis!!
-  let primeironumero
+let primeironumero
 let  operador
 let  segundonumero  
-
-
+let resultadodaoperacao
+let resultadofinal
+let contaterminou = false
 
 function digitar(value) {
+      
 
     let resultado = document.getElementById("resultado");
 
     if (operador == undefined) {
 
-        if (resultado.textContent == "0") {
+        if (resultado.textContent == "0"  || contaterminou == true) {
             resultado.textContent = value;
-        } else {
+        } 
+        
+        
+        else {
             resultado.textContent += value;
         }
 
+    
     } else {
         
        if (segundonumero == undefined) {
@@ -29,6 +35,8 @@ function digitar(value) {
             segundonumero += value
         }
     }
+
+    contaterminou = false
 }
 
 
@@ -41,8 +49,44 @@ primeironumero = primeironumero.textContent
 }
 
 function calcular () {
+resultadofinal = document.getElementById("resultado")
 
+primeironumero = Number(primeironumero)
+segundonumero = Number(segundonumero)
 
+switch (operador) {
+    
+
+    case ("+"):
+      resultadodaoperacao = primeironumero + segundonumero 
+
+     resultadofinal.textContent  = resultadodaoperacao
+     break;
+
+       case ("-"):
+      resultadodaoperacao = primeironumero - segundonumero 
+
+     resultadofinal.textContent  = resultadodaoperacao
+     break;
+
+       case ("*"):
+      resultadodaoperacao = primeironumero * segundonumero 
+
+     resultadofinal.textContent  = resultadodaoperacao
+     break;
+
+       case ("/"):
+      resultadodaoperacao = primeironumero / segundonumero 
+
+     resultadofinal.textContent  = resultadodaoperacao
+     break;
+
+}
+primeironumero = undefined
+segundonumero = undefined
+operador = undefined
+contaterminou = true
+    
 }
 
 
