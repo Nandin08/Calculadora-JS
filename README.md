@@ -1,6 +1,10 @@
 # Calculadora JS
 
-Projeto de uma calculadora simples que estou desenvolvendo pra praticar HTML, CSS e JavaScript.
+Projeto de uma calculadora simples que estou desenvolvendo para praticar HTML, CSS e JavaScript.
+
+🔗 **[Acessar a calculadora](https://nandin08.github.io/Calculadora-JS/)**
+
+
 
  🚧 Andamento
 
