@@ -6,19 +6,25 @@ Projeto de uma calculadora simples que estou desenvolvendo para praticar HTML, C
 
 
 
- 🚧 Andamento
+A ideia principal foi aprender JavaScript na prática, trabalhando com funções, variáveis, condições, operações matemáticas e interação com os botões.
 
-- Header: finalizado. (talvez eu ainda mexa depois)
-- Main: pronto.
-- Layout: pronto. (talvez eu mexa depois)
-- JavaScript: Os Cálculos estão funcionado porém o que falta agora é corrigir bugs.
 
-📌 Próximos passos
+## 🚀 Funcionalidades
 
-- Criar os botões e layout no HTML ( pronto)
-- Organizar tudo no CSS ( Quase pronto, Só é preciso somente fazer o site ficar organizado nas versões mobile.)
-- Arrumar os espaçamentos entre os botões. (pronto)
-- Fazer a lógica funcionar com JavaScript (Quase finalizado. Os Cálculos estão funcionado porém o que falta agora é corrigir bugs )
+* Operações de adição, subtração, multiplicação e divisão.
+* Números decimais.
+* Botão para limpar a calculadora.
+* Tratamento de divisão por zero.
+* Interface simples e responsiva.
 
- 💻 Tecnologias
+## 💻 Tecnologias
 
+* HTML5
+* CSS3
+* JavaScript
+
+## 📌 Status
+
+**Finalizado.** ✅
+
+Este foi um projeto de prática e aprendizado, então futuramente posso voltar nele para melhorar o código e adicionar novas funcionalidades.

@@ -10,9 +10,15 @@ function digitar(value) {
       
 
     let resultado = document.getElementById("resultado");
+      if (value == "." && resultado.textContent.includes(".")) {
+       return 
+
+    }
 
     if (operador == undefined) {
 
+
+  
         if (resultado.textContent == "0"  || contaterminou == true) {
             resultado.textContent = value;
         } 
@@ -35,6 +41,8 @@ function digitar(value) {
             segundonumero += value
         }
     }
+
+
 
     contaterminou = false
 }
@@ -76,6 +84,12 @@ switch (operador) {
      break;
 
        case ("/"):
+    if ( segundonumero == 0) {
+        resultadofinal.textContent = "indefinido"
+        return
+    }
+
+
       resultadodaoperacao = primeironumero / segundonumero 
 
      resultadofinal.textContent  = resultadodaoperacao
